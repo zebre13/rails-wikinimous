@@ -18,7 +18,11 @@
     <%= render 'navbar' %>
 
     <div class="container">
-        <%= yield %>
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+          <%= yield %>
+        </div>
+      </div>
     </div>
 
   </body>
